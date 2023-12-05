@@ -36,14 +36,13 @@ const Gallery = () => {
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-x-2  gap-y-4 my-10 sm:mx-10 mx-3 xl:mx-10 xl:gap-x-0 ">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 sm:gap-x-2 sm:gap-y-4  gap-y-2 my-10 sm:mx-10  xl:mx-10  xl:gap-x-0  w-full">
       {imagesData.map((image) => (
         <div
           key={image.id}
-          className="relative overflow-hidden rounded-lg"
+          className="relative overflow-hidden rounded-lg w-full max-w-[350px] max-h-[300px] mx-auto"
           onMouseEnter={() => handleHover(image.id)}
           onMouseLeave={handleHoverOut}
-          style={{ maxWidth: "350px", maxHeight: "300px" }}
         >
           <Image
             src={image.src}
