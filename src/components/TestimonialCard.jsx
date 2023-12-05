@@ -101,13 +101,15 @@ const SliderComponent = () => {
   };
 
   return (
-    <Slider {...settings}>
-      {SampleFeedbacks.map((feedback, index) => (
-        <div key={index}>
-          <ImgMediaCard name={feedback.name} feedback={feedback.feedback} />
-        </div>
-      ))}
-    </Slider>
+    <div className="mx-auto max-w-screen-lg">
+      <Slider {...settings}>
+        {SampleFeedbacks.map((feedback, index) => (
+          <div key={index}>
+            <ImgMediaCard name={feedback.name} feedback={feedback.feedback} />
+          </div>
+        ))}
+      </Slider>
+    </div>
   );
 };
 

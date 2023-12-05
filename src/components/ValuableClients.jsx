@@ -60,18 +60,20 @@ const ValuableClients = () => {
   };
 
   return (
-    <Slider {...settings}>
-      {logos.map((logo, index) => (
-        <div key={index} className="px-2">
-          <Image
-            src={logo}
-            alt={`Logo ${index + 1}`}
-            className="mx-auto "
-            {...getLogoDimensions(200)}
-          />
-        </div>
-      ))}
-    </Slider>
+    <div className="mx-auto max-w-screen-lg">
+      <Slider {...settings}>
+        {logos.map((logo, index) => (
+          <div key={index} className="px-2">
+            <Image
+              src={logo}
+              alt={`Logo ${index + 1}`}
+              className="mx-auto "
+              {...getLogoDimensions(200)}
+            />
+          </div>
+        ))}
+      </Slider>
+    </div>
   );
 };
 
