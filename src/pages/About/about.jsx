@@ -13,14 +13,15 @@ const AboutPage = () => {
         id="about"
       >
         {/* left side image */}
-        <div className="w-full md:w-1/2 ">
-          <div className="flex justify-center items-center  shadow-2xl shadow-black">
+        <div className="w-full md:w-1/2  xl:w-1/2">
+          <div className="flex justify-center items-center  shadow-2xl ">
             <Image
               src={rightImage}
-              alt="Right Image"
-              title="Right Image"
+              alt="Left Image"
+              title="Left Image"
               width={800}
               height={600}
+              className="w-full xl:w-auto"
             />
           </div>
         </div>
@@ -98,13 +99,13 @@ const AboutPage = () => {
           </div>
         </div>
         {/* Right side image */}
-        <div className="w-full md:w-1/2 sm:mt-12">
-          <div className=" justify-center items-center   shadow-2xl shadow-black">
+        <div className="w-full md:w-1/2 sm:mt-12 xl:w-1/2">
+          <div className=" justify-center items-center   shadow-2xl ">
             <Image
               src={leftImage}
               alt="left Image"
               title="left Image"
-              width={600}
+              width={800}
               height={600}
             />
           </div>
