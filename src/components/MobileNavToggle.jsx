@@ -74,9 +74,11 @@ const MobileNavToggle = () => {
                 Contact
               </Link>
             </div>
-            <button className="bg-black hover:bg-[rgb(155,117,59)] hover:border-2 text-white py-2 px-4 rounded-lg mt-4">
-              Get a Quote
-            </button>
+            <Link href="/Quote/getQuote" title="quote" onClick={closeMenu}>
+              <button className="bg-black hover:bg-[rgb(155,117,59)] hover:border-2 text-white py-2 px-4 rounded-lg mt-4">
+                Get a Quote
+              </button>
+            </Link>
           </div>
         </div>
       )}

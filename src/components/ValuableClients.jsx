@@ -61,14 +61,16 @@ const ValuableClients = () => {
   };
 
   return (
-    <div className="mx-auto max-w-screen-lg">
+    <div className="mx-auto max-w-screen-lg w-full ">
       <Slider {...settings}>
         {logos.map((logo, index) => (
           <div key={index} className="px-2">
             <Image
               src={logo}
               alt={`Logo ${index + 1}`}
-              className="mx-auto "
+              width={200}
+              height={200}
+              className="mx-auto  w-[20rem] rounded-xl border-4 border-[#c8a456]  "
               {...getLogoDimensions(200)}
             />
           </div>

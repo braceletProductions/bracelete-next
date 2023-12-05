@@ -9,7 +9,7 @@ const AboutPage = () => {
   return (
     <>
       <div
-        className=" my-20 flex flex-col md:flex-row px-10 gap-x-20 "
+        className=" mt-12 flex flex-col md:flex-row mx-5 gap-x-20 "
         id="about"
       >
         {/* left side image */}
@@ -19,9 +19,9 @@ const AboutPage = () => {
               src={rightImage}
               alt="Left Image"
               title="Left Image"
-              width={800}
-              height={600}
-              className="w-full h-full xl:w-full"
+              width={900}
+              height={800}
+              className="w-full h-full xl:w-full shadow-2xl shadow-black"
             />
           </div>
         </div>
@@ -30,7 +30,7 @@ const AboutPage = () => {
             About Us
           </h1>
           <div
-            className=" text-[17px] text-justify"
+            className=" text-[17px] text-center py-10"
             style={{ fontFamily: "arial" }}
           >
             <p>
@@ -51,13 +51,13 @@ const AboutPage = () => {
       </div>
 
       {/* why choose us */}
-      <h1 className=" justify-center text-center  text-xl sm:text-2xl  uppercase text-[#C8A465] font-black hover:underline transition ease-in-out">
+      <h1 className=" justify-center text-center  text-xl sm:text-2xl  uppercase text-[#C8A465] font-black hover:underline transition ease-in-out mt-20">
         Why Choose Us ?
       </h1>
-      <div className=" flex flex-col-reverse my-20  md:flex-row px-10 gap-x-20 ">
-        <div className="w-full  md:w-1/2 ">
+      <div className=" flex flex-col-reverse my-20  md:flex-row px-10 gap-x-20  ">
+        <div className="w-full  md:w-1/2  py-10">
           <div
-            className=" text-[17px] text-justify"
+            className=" text-[17px] text-center"
             style={{ fontFamily: "arial" }}
           >
             <h2 className="font-semibold underline text-black  py-4">
@@ -71,7 +71,7 @@ const AboutPage = () => {
             </p>
           </div>
           <div
-            className=" text-[17px] text-justify"
+            className=" text-[17px] text-center"
             style={{ fontFamily: "arial" }}
           >
             <h3 className="font-semibold underline text-black  py-4">
@@ -86,7 +86,7 @@ const AboutPage = () => {
             </p>
           </div>
           <div
-            className=" text-[17px] text-justify"
+            className=" text-[17px] text-center"
             style={{ fontFamily: "arial" }}
           >
             <h3 className="font-semibold underline text-black  py-4">
@@ -107,7 +107,7 @@ const AboutPage = () => {
               title="left Image"
               width={800}
               height={600}
-              className="w-full h-full xl:w-full"
+              className="w-full h-full xl:w-full shadow-2xl shadow-black"
             />
           </div>
         </div>

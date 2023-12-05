@@ -3,7 +3,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 const Contact = () => {
   return (
     <div
-      className=" my-20 flex flex-col md:flex-row px-10 gap-8 "
+      className=" my-20 flex flex-col md:flex-row px-10 gap-8 py-5  bg-gray-300 "
       id="contact"
       style={{ fontFamily: "Arial" }}
     >
@@ -57,10 +57,10 @@ const Contact = () => {
         <h2 className="text-3xl font-bold mb-4 flex justify-center text-[#c8a465] ">
           Find Us At
         </h2>
-        <p className=" text-3xl text-center text-[#23A8F6]">
+        <p className=" text-2xl text-center text-[#23A8F6]">
           82, DDA Mini Market, Behind Sahyog Building,
         </p>
-        <p className="text-3xl text-center text-[#23A8F6]">
+        <p className="text-2xl text-center text-[#23A8F6]">
           Nehru Place, Delhi 110019
         </p>
         <div className="flex justify-center mt-10 sm:text-7xl text-2xl text-[#c84565]">
