@@ -11,7 +11,6 @@ const ImageCarousel = () => {
     "/Gallery_3.jpeg",
     "/Gallery_4.jpeg",
     "/Gallery_5.jpeg",
-    "/Gallery_6.jpeg",
     "/Gallery_7.jpeg",
     "/Gallery_8.jpeg",
     "/Gallery_9.jpeg",
