@@ -95,6 +95,7 @@ const SliderComponent = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
+    arrows: false,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
