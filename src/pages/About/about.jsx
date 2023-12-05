@@ -21,11 +21,11 @@ const AboutPage = () => {
               title="Left Image"
               width={800}
               height={600}
-              className="w-full xl:w-auto"
+              className="w-full h-full xl:w-full"
             />
           </div>
         </div>
-        <div className="w-full md:w-1/2 ">
+        <div className="w-full md:w-1/2  xl:w-1/2">
           <h1 className="pb-5 justify-center text-center text-xl sm:text-2xl  mt-20 sm:mt-5 uppercase text-[#C8A465] font-black hover:underline transition ease-in-out">
             About Us
           </h1>
@@ -107,6 +107,7 @@ const AboutPage = () => {
               title="left Image"
               width={800}
               height={600}
+              className="w-full h-full xl:w-full"
             />
           </div>
         </div>
