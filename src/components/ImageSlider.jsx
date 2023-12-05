@@ -6,15 +6,15 @@ import Image from "next/image";
 
 const ImageCarousel = () => {
   const images = [
-    "/../Gallery_1.jpeg",
-    "/../Gallery_2.jpeg",
-    "/../Gallery_3.jpeg",
-    "/../Gallery_4.jpeg",
-    "/../Gallery_5.jpeg",
-    "/../Gallery_7.jpeg",
-    "/../Gallery_8.jpeg",
-    "/../Gallery_9.jpeg",
-    "/../Gallery_10.jpeg",
+    "/Gallery_1.jpeg",
+    "/Gallery_2.jpeg",
+    "/Gallery_3.jpeg",
+    "/Gallery_4.jpeg",
+    "/Gallery_5.jpeg",
+    "/Gallery_7.jpeg",
+    "/Gallery_8.jpeg",
+    "/Gallery_9.jpeg",
+    "/Gallery_10.jpeg",
 
     // Add more image URLs here
   ];
