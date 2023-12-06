@@ -68,6 +68,7 @@ const ValuableClients = () => {
             <Image
               src={logo}
               alt={`Logo ${index + 1}`}
+              title={`Logo ${index + 1}`}
               width={200}
               height={200}
               className="mx-auto  w-[20rem] rounded-xl border-4 border-[#c8a456]  "

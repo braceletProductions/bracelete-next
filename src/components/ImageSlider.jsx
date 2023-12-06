@@ -53,6 +53,7 @@ const ImageCarousel = () => {
               <Image
                 src={image}
                 alt={`Image ${index + 1}`}
+                title={`Image ${index + 1}`}
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"

@@ -16,6 +16,7 @@ const Home = () => {
         <Image
           src={bgImage}
           alt="Background Image"
+          title=" Bracelete Production Logo"
           layout="fill"
           objectFit="cover"
           className="opacity-70"
