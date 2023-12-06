@@ -45,7 +45,7 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-gray-300 py-2  ">
-      <div className=" sm:flex  flex-col sm:flex-row justify-between items-center mx-4 lg:mx-auto ">
+      <div className="flex flex-col sm:flex-row justify-between  mx-4 lg:mx-auto ">
         {/* Left Section */}
         <div className="flex items-center space-x-4">
           <p className="text-white">

@@ -26,9 +26,9 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2  xl:w-1/2">
-          <h1 className="pb-5 justify-center text-center text-xl sm:text-2xl  mt-20 sm:mt-5 uppercase text-[#C8A465] font-black hover:underline transition ease-in-out">
+          <h2 className="pb-5 justify-center text-center text-xl sm:text-2xl  mt-20 sm:mt-5 uppercase text-[#C8A465] font-black hover:underline transition ease-in-out">
             About Us
-          </h1>
+          </h2>
           <div
             className=" text-[17px] text-center py-10"
             style={{ fontFamily: "arial" }}

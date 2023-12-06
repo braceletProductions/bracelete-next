@@ -24,9 +24,9 @@ const Home = () => {
         <div className="absolute inset-0 bg-black opacity-40"></div>
       </div>
       <div className="absolute inset-x-0 sm:top-60 top-52 text-center text-[#C8A465] z-10">
-        <span className="text-3xl sm:text-6xl font-black">
+        <h1 className="text-3xl sm:text-6xl font-black">
           Plan Your Dream Event With Us
-        </span>
+        </h1>
       </div>
       <div id="about">
         <AboutPage />
@@ -35,30 +35,30 @@ const Home = () => {
         <Service />
       </div>
       <div className="mt-20 ">
-        <h6
+        <h2
           className="flex justify-center text-[#c8a465] text-3xl uppercase pb-10"
           style={{ fontFamily: "Arial" }}
         >
           Testimonials
-        </h6>
+        </h2>
         <ImgMediaCard />
       </div>
       <div className="mt-15">
-        <h5
+        <h3
           className="flex justify-center text-center text-[#c8a465] text-3xl uppercase pb-10"
           style={{ fontFamily: "Arial" }}
         >
           Gallery
-        </h5>
+        </h3>
         <ImageCarousel />
       </div>
       <div className="mt-28">
-        <h6
+        <h4
           className="flex justify-center text-center text-[#c8a465] text-3xl uppercase pb-10"
           style={{ fontFamily: "Arial" }}
         >
           Valuable Clients
-        </h6>
+        </h4>
         <ValuableClients />
       </div>
       <div id="contact">
