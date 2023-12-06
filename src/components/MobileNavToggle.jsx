@@ -67,7 +67,7 @@ const MobileNavToggle = () => {
               <Link href="/Gallery/gallery" title="gallery" onClick={closeMenu}>
                 Gallery
               </Link>
-              <Link href="/#services" title="service" onClick={closeMenu}>
+              <Link href="/#service" title="service" onClick={closeMenu}>
                 Services
               </Link>
               <Link href="/#contact" title="contact" onClick={closeMenu}>
