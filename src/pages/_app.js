@@ -19,6 +19,7 @@ export default function App({ Component, pageProps }) {
           content="Event Management Company in Delhi, Wedding Planner in Delhi, Best Wedding Planner in Delhi, Wedding Planner in India, Wedding Decorator in Delhi, AV Sound Setup in Delhi, Event Production Company in Delhi, Event planning services, Event management company, Professional event planners, Corporate event planning, Wedding planning services, Party planners, Special event coordination, Event design and production, Event logistics and coordination, Venue selection and management, Event decoration and styling, Budget-friendly event planning, Event marketing and promotion, Event entertainment services, Destination event planning, Event registration and ticketing, Event branding and sponsorship, Social media marketing for events, Event technology solutions, Event planning checklist"
         />
         <link rel="icon" href="/logo.png" />
+        <link rel="canonical" href="https://www.braceletproductions.in/" />
       </Head>
 
       <div className="flex flex-col min-h-screen">
