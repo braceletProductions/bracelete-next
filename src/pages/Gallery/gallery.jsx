@@ -40,7 +40,7 @@ const Gallery = () => {
       {imagesData.map((image) => (
         <div
           key={image.id}
-          className="relative overflow-hidden rounded-lg w-full  sm:mx-0"
+          className="relative overflow-hidden rounded-lg w-full  max-h-[300px] sm:mx-0"
           onMouseEnter={() => handleHover(image.id)}
           onMouseLeave={handleHoverOut}
         >
