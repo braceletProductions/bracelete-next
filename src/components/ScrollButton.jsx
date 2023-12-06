@@ -31,7 +31,7 @@ const ScrollButton = () => {
   };
   return (
     <button
-      name="Scroll Button from bottom to top"
+      aria-label="Scroll to Top Button"
       className=" z-50 fixed bottom-4 right-8 p-2 bg-[#C8A465]  border-2  border-gray-800 text-black  rounded-full  hover:bg-[#e9cc9a] hover:text-white  active:scale-95"
       onClick={scrollToTop}
     >
