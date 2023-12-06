@@ -24,10 +24,10 @@ const Home = () => {
         <div className="absolute inset-0 bg-black opacity-40"></div>
       </div>
       <div className="absolute inset-x-0 sm:top-60 top-52 text-center text-[#C8A465] z-10">
-        <h1 className="text-3xl sm:text-6xl font-black">
+        <h1 className="text-3xl sm:text-6xl font-black ">
           <span
             style={{
-              WebkitTextStroke: "3px black" /* For Safari/Chrome */,
+              WebkitTextStroke: "2px black",
               textStroke: "1px black",
               color: "#C8A465",
             }}
