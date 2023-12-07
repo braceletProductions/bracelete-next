@@ -81,7 +81,7 @@ const ImgMediaCard = ({ name, feedback }) => {
   return (
     <div style={cardStyle}>
       <div style={contentStyle}>
-        <h2 style={titleStyle}>OUR SUCCESS STORIES</h2>
+        <h3 style={titleStyle}>OUR SUCCESS STORIES</h3>
         <p style={feedbackStyle}>{feedback}</p>
         <p style={nameStyle}>{name}</p>
       </div>

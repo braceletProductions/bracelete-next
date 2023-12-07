@@ -44,7 +44,7 @@ const Home = () => {
       </div>
       <div className="mt-20 ">
         <h2
-          className="flex justify-center text-[#c8a465] text-3xl uppercase pb-10"
+          className="flex justify-center text-[#c8a465] text-3xl uppercase pb-10 font-black hover:underline transition ease-in-out"
           style={{ fontFamily: "Arial" }}
         >
           Testimonials
@@ -52,21 +52,21 @@ const Home = () => {
         <ImgMediaCard />
       </div>
       <div className="mt-15">
-        <h3
-          className="flex justify-center text-center text-[#c8a465] text-3xl uppercase pb-10"
+        <h2
+          className="flex justify-center text-center text-[#c8a465] text-3xl uppercase pb-10 font-black hover:underline transition ease-in-out"
           style={{ fontFamily: "Arial" }}
         >
           Gallery
-        </h3>
+        </h2>
         <ImageCarousel />
       </div>
       <div className="mt-28">
-        <h4
-          className="flex justify-center text-center text-[#c8a465] text-3xl uppercase pb-10"
+        <h2
+          className="flex justify-center text-center text-[#c8a465] text-3xl uppercase pb-10 font-black hover:underline transition ease-in-out"
           style={{ fontFamily: "Arial" }}
         >
           Valuable Clients
-        </h4>
+        </h2>
         <ValuableClients />
       </div>
       <div id="contact">

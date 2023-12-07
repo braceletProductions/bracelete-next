@@ -51,18 +51,18 @@ const AboutPage = () => {
       </div>
 
       {/* why choose us */}
-      <h1 className=" justify-center text-center  text-xl sm:text-2xl  uppercase text-[#C8A465] font-black hover:underline transition ease-in-out mt-20">
+      <h2 className=" justify-center text-center  text-xl sm:text-2xl  uppercase text-[#C8A465] font-black hover:underline transition ease-in-out mt-20">
         Why Choose Us ?
-      </h1>
+      </h2>
       <div className=" flex flex-col-reverse my-20  md:flex-row px-10 gap-x-20  ">
         <div className="w-full  md:w-1/2  py-10">
           <div
             className=" text-[17px] text-center"
             style={{ fontFamily: "arial" }}
           >
-            <h2 className="font-semibold underline text-black  py-4">
+            <h3 className="font-semibold underline text-black  py-4">
               INHOUSE INVETORY
-            </h2>
+            </h3>
             <p>
               We can offer full inventory services for your event needs, whether
               it’s a Conference, Roadshow, Product Launch or Exhibition. All the

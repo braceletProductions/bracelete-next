@@ -39,9 +39,9 @@ const Service = () => {
           className="my-20 flex flex-col items-center justify-center md:flex-row px-10 gap-x-20"
           id="service"
         >
-          <h1 className="text-[#C8A465] text-3xl sm:text-3xl font-black text-center uppercase">
+          <h2 className="text-[#C8A465] text-3xl sm:text-3xl font-black text-center uppercase">
             Services We Offer
-          </h1>
+          </h2>
         </div>
 
         <div className="flex flex-wrap justify-center items-center gap-8">
@@ -51,9 +51,9 @@ const Service = () => {
               className="flex flex-col bg-[#C8A465] rounded-lg shadow-2xl shadow-black p-6 text-center h-[350px] sm:h-[250px]"
               style={{ maxWidth: "300px" }}
             >
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">
                 {service.title}
-              </h2>
+              </h3>
               <p className="text-white">{service.content}</p>
             </div>
           ))}

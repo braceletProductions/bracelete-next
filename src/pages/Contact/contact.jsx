@@ -9,9 +9,9 @@ const Contact = () => {
     >
       {/* Contact Form */}
       <div className="w-full md:w-1/2 bg-black rounded-lg text-white sm:px-16 py-3 px-4 ">
-        <h2 className="text-2xl font-bold mb-4 flex justify-center">
+        <h3 className="text-2xl font-bold mb-4 flex justify-center">
           Contact Us
-        </h2>
+        </h3>
         <form className="space-y-2">
           <div className="flex flex-col">
             <label htmlFor="name">Name</label>
@@ -54,9 +54,9 @@ const Contact = () => {
 
       {/* Contact Information */}
       <div className="w-full md:w-1/2 ">
-        <h2 className="text-3xl font-bold mb-4 flex justify-center text-[#c8a465] ">
+        <h3 className="text-3xl font-bold mb-4 flex justify-center text-[#c8a465] ">
           Find Us At
-        </h2>
+        </h3>
         <p className=" text-2xl text-center text-[#23A8F6]">
           82, DDA Mini Market, Behind Sahyog Building,
         </p>
