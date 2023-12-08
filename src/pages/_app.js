@@ -32,11 +32,22 @@ export default function App({ Component, pageProps }) {
           property="og:image"
           content="https://www.braceletproductions.in/wedding_cover.jpg"
         />
-        {/* Replace with the actual image URL */}
+        {/* image URL */}
         <meta property="og:url" content="https://www.braceletproductions.in/" />
         <meta property="og:site_name" content="Bracelete Productions" />
         <meta property="og:locale" content="en_US" />
 
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Bracelet Productions" />
+        <meta
+          name="twitter:description"
+          content="Create unforgettable moments with our event planning services. From corporate conferences to dream weddings, we handle it all."
+        />
+        <meta
+          name="twitter:image"
+          content="https://braceletproductions.in/wedding_cover.jpg"
+        />
         {/* site icon  */}
 
         <link rel="icon" href="/logo.png" />
