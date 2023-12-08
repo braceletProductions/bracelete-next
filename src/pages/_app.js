@@ -30,7 +30,7 @@ export default function App({ Component, pageProps }) {
         />
         <meta
           property="og:image"
-          content="https://www.braceletproductions.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwedding_cover.b22f0707.jpg&w=1200&q=75"
+          content="https://www.braceletproductions.in/wedding_cover.jpg"
         />
         {/* Replace with the actual image URL */}
         <meta property="og:url" content="https://www.braceletproductions.in/" />
