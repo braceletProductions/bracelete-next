@@ -46,7 +46,7 @@ export default function App({ Component, pageProps }) {
         />
         <meta
           name="twitter:image"
-          content="https://braceletproductions.in/wedding_cover.jpg"
+          content="https://www.braceletproductions.in/wedding_cover.jpg"
         />
         {/* site icon  */}
 
