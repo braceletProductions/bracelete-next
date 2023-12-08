@@ -35,6 +35,8 @@ export default function App({ Component, pageProps }) {
         {/* Replace with the actual image URL */}
         <meta property="og:url" content="https://www.braceletproductions.in/" />
         <meta property="og:site_name" content="Bracelete Productions" />
+        <meta property="og:locale" content="en_US" />
+
         {/* site icon  */}
 
         <link rel="icon" href="/logo.png" />
