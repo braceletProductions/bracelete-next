@@ -5,17 +5,17 @@ const Service = () => {
     {
       title: "EVENT MANAGEMENT",
       content:
-        "We are proficient in the three most integral part of Event Management Conceptulise – Design – Execute.",
+        "We are proficient in the three most integral parts of Event Management Conceptualize – Design – Execute.",
     },
     {
       title: "WEDDING PLANNING",
       content:
-        "Our professional wedding planner understands your desire. so they design and execute your wedding into a lifetime memory.",
+        "Our professional wedding planners understand your desires. so they design and execute your wedding into a lifetime memory.",
     },
     {
       title: "FASHION SHOW",
       content:
-        "We manage your fashion show with very professional manner, weather it’s a Ramp, Backdrop, Light or Sound. It all will be flawless..",
+        "We manage your fashion show in a very professional manner, whether it’s a Ramp, Backdrop, Light or Sound. It will all be flawless..",
     },
     {
       title: "PHOTO AND VIDEOGRAPHY",
@@ -25,7 +25,7 @@ const Service = () => {
     {
       title: "CORPORATE GIFTING",
       content:
-        "We provide corporate gifting services to our clients. The Innovative, Latest, Trendy and Useful Gifts with Corporate Branding..",
+        "We provide corporate gifting services to our clients. The innovative, latest, trendy and useful gifts with corporate Branding..",
     },
   ];
 

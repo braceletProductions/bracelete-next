@@ -35,14 +35,14 @@ const AboutPage = () => {
           >
             <p>
               As an established name in the field of Event, Art, and
-              Entertainment Bracelet Productions has gained an impressive record
-              of success thanks to its extensive industry experience and dynamic
-              team of young professionals.Our services range from Event
+              Entertainment, Bracelet Productions has gained an impressive
+              record of success thanks to its extensive industry experience and
+              dynamic team of young professionals. Our services range from Event
               Management and Production, Photo and Videography, Video
-              Productions, Fashion and Entertainment, to Integrated Marketing
-              Communication. Bracelet Productions is well equipped to take on
+              Productions, Fashion, and Entertainment, to Integrated Marketing
+              Communication. Bracelet Productions is well-equipped to take on
               the production of events, exhibits, and entertainment of any
-              magnitude thanks to its expensive infrastructure and pool of young
+              magnitude thanks to its expansive infrastructure and pool of young
               and talented professionals. Our clients have always been satisfied
               with the services rendered by Bracelet Productions.
             </p>
@@ -61,13 +61,13 @@ const AboutPage = () => {
             style={{ fontFamily: "arial" }}
           >
             <h3 className="font-semibold underline text-black  py-4">
-              INHOUSE INVETORY
+              IN-HOUSE INVETORY
             </h3>
             <p>
-              We can offer full inventory services for your event needs, whether
-              it’s a Conference, Roadshow, Product Launch or Exhibition. All the
-              things we need are here with us. Therefore, you do not have to
-              hurry. You can count on us.
+              We offer full inventory services for your event needs, whether
+              it’s a Conference, Roadshow, Product Launch, or Exhibition.
+              Everything we need is available in-house. Therefore, you do not
+              have to rush. You can count on us.
             </p>
           </div>
           <div
